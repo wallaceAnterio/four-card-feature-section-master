@@ -1,0 +1,34 @@
+:root {
+   --Red: hsl(0, 78%, 62%);
+   --Cyan: hsl(180, 62%, 55%);
+   --Orange: hsl(34, 97%, 64%);
+   --Blue: hsl(212, 86%, 64%);
+
+   --Very-Dark-Blue: hsl(234, 12%, 34%);
+   --Grayish-Blue: hsl(229, 6%, 66%);
+   --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Poppins", sans-serif;
+   font-size: 15px;
+   background-color: var(--Very-Light-Gray);
+   color: var(--Grayish-Blue);
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 50px 30px;
+}
+
+header{
+   text-align: center;
+
+}
